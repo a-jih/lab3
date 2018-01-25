@@ -11,6 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	$("#testjs").click(function(e) {
 		$('.jumbotron h1').text("Javascript is connected");
+		$(this).text("What the heck did you say to me?");
 		$('.jumbotron p').toggleClass("active");
 	});
 
